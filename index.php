@@ -28,7 +28,7 @@ $listLen = count($list);
 
 
 /*------------------------------------------------------------
-	error処理（必要になったら）
+	必要になりそうな処理
 ・改行を<br>タグに変換
 ・タグを除去
 ・$honbun = htmlspecialchars($honbun);
@@ -37,7 +37,6 @@ $listLen = count($list);
 ・$honbun = nl2br($honbun);
 ・クオーテーションマークを変換
 ・if(get_magic_quotes_gpc()) { $honbun = stripslashes($honbun); } 
-・乱数を生成してファイル名に
 ・$filename = rand( 1000000, 9999999) . ".html";
 */
 
